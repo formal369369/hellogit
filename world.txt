@@ -1,7 +1,8 @@
 stage 등록
     - 변경사항만 추출
+    git add --all
 commit
     - 추출된 변경사항을 업로드 대기 상태로 변환
     - stage 등록과 commit은 항상 세트
-    
+    git commit -m "테스트파일 등록"
 push
